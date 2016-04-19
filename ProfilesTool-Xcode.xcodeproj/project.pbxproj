@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B870F51A1CC5DA5700E8202D /* NSFileManager+Trash.m in Sources */ = {isa = PBXBuildFile; fileRef = B870F50D1CC5DA5700E8202D /* NSFileManager+Trash.m */; };
+		B870F51E1CC5DA5700E8202D /* ProfilesNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B870F5161CC5DA5700E8202D /* ProfilesNode.m */; };
+		B870F51F1CC5DA5700E8202D /* DragOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = B870F5191CC5DA5700E8202D /* DragOutlineView.m */; };
+		B870F5221CC5DA6100E8202D /* ProfilesToolPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B870F5211CC5DA6100E8202D /* ProfilesToolPlugin.m */; };
+		B870F5261CC5DCE800E8202D /* ProfilesToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = B870F5241CC5DCE800E8202D /* ProfilesToolController.m */; };
+		B870F5271CC5DCE800E8202D /* ProfilesToolController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B870F5251CC5DCE800E8202D /* ProfilesToolController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B870F5021CC5DA4900E8202D /* ProfilesTool-Xcode.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProfilesTool-Xcode.xcplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B870F5051CC5DA4900E8202D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B870F50C1CC5DA5700E8202D /* NSFileManager+Trash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Trash.h"; sourceTree = "<group>"; };
+		B870F50D1CC5DA5700E8202D /* NSFileManager+Trash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Trash.m"; sourceTree = "<group>"; };
+		B870F5151CC5DA5700E8202D /* ProfilesNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfilesNode.h; sourceTree = "<group>"; };
+		B870F5161CC5DA5700E8202D /* ProfilesNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfilesNode.m; sourceTree = "<group>"; };
+		B870F5181CC5DA5700E8202D /* DragOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragOutlineView.h; sourceTree = "<group>"; };
+		B870F5191CC5DA5700E8202D /* DragOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragOutlineView.m; sourceTree = "<group>"; };
+		B870F5201CC5DA6100E8202D /* ProfilesToolPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ProfilesToolPlugin.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		B870F5211CC5DA6100E8202D /* ProfilesToolPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ProfilesToolPlugin.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B870F5231CC5DCE800E8202D /* ProfilesToolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ProfilesToolController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		B870F5241CC5DCE800E8202D /* ProfilesToolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ProfilesToolController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B870F5251CC5DCE800E8202D /* ProfilesToolController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfilesToolController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B870F4FF1CC5DA4900E8202D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B870F4F91CC5DA4800E8202D = {
+			isa = PBXGroup;
+			children = (
+				B870F5041CC5DA4900E8202D /* ProfilesTool-Xcode */,
+				B870F5031CC5DA4900E8202D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B870F5031CC5DA4900E8202D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B870F5021CC5DA4900E8202D /* ProfilesTool-Xcode.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B870F5041CC5DA4900E8202D /* ProfilesTool-Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				B870F5201CC5DA6100E8202D /* ProfilesToolPlugin.h */,
+				B870F5211CC5DA6100E8202D /* ProfilesToolPlugin.m */,
+				B870F50B1CC5DA5700E8202D /* Category */,
+				B870F5101CC5DA5700E8202D /* Controller */,
+				B870F5141CC5DA5700E8202D /* Model */,
+				B870F5171CC5DA5700E8202D /* View */,
+				B870F5051CC5DA4900E8202D /* Info.plist */,
+			);
+			path = "ProfilesTool-Xcode";
+			sourceTree = "<group>";
+		};
+		B870F50B1CC5DA5700E8202D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B870F50C1CC5DA5700E8202D /* NSFileManager+Trash.h */,
+				B870F50D1CC5DA5700E8202D /* NSFileManager+Trash.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B870F5101CC5DA5700E8202D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B870F5231CC5DCE800E8202D /* ProfilesToolController.h */,
+				B870F5241CC5DCE800E8202D /* ProfilesToolController.m */,
+				B870F5251CC5DCE800E8202D /* ProfilesToolController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B870F5141CC5DA5700E8202D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B870F5151CC5DA5700E8202D /* ProfilesNode.h */,
+				B870F5161CC5DA5700E8202D /* ProfilesNode.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B870F5171CC5DA5700E8202D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B870F5181CC5DA5700E8202D /* DragOutlineView.h */,
+				B870F5191CC5DA5700E8202D /* DragOutlineView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B870F5011CC5DA4900E8202D /* ProfilesTool-Xcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B870F5081CC5DA4900E8202D /* Build configuration list for PBXNativeTarget "ProfilesTool-Xcode" */;
+			buildPhases = (
+				B870F4FE1CC5DA4900E8202D /* Sources */,
+				B870F4FF1CC5DA4900E8202D /* Frameworks */,
+				B870F5001CC5DA4900E8202D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ProfilesTool-Xcode";
+			productName = "ProfilesTool-Xcode";
+			productReference = B870F5021CC5DA4900E8202D /* ProfilesTool-Xcode.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B870F4FA1CC5DA4800E8202D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = www.skyfox.org;
+				TargetAttributes = {
+					B870F5011CC5DA4900E8202D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B870F4FD1CC5DA4800E8202D /* Build configuration list for PBXProject "ProfilesTool-Xcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B870F4F91CC5DA4800E8202D;
+			productRefGroup = B870F5031CC5DA4900E8202D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B870F5011CC5DA4900E8202D /* ProfilesTool-Xcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B870F5001CC5DA4900E8202D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B870F5271CC5DCE800E8202D /* ProfilesToolController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B870F4FE1CC5DA4900E8202D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B870F5221CC5DA6100E8202D /* ProfilesToolPlugin.m in Sources */,
+				B870F51A1CC5DA5700E8202D /* NSFileManager+Trash.m in Sources */,
+				B870F51E1CC5DA5700E8202D /* ProfilesNode.m in Sources */,
+				B870F5261CC5DCE800E8202D /* ProfilesToolController.m in Sources */,
+				B870F51F1CC5DA5700E8202D /* DragOutlineView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B870F5061CC5DA4900E8202D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B870F5071CC5DA4900E8202D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B870F5091CC5DA4900E8202D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				INFOPLIST_FILE = "ProfilesTool-Xcode/Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.ProfilesTool-Xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		B870F50A1CC5DA4900E8202D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				INFOPLIST_FILE = "ProfilesTool-Xcode/Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.ProfilesTool-Xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B870F4FD1CC5DA4800E8202D /* Build configuration list for PBXProject "ProfilesTool-Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B870F5061CC5DA4900E8202D /* Debug */,
+				B870F5071CC5DA4900E8202D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B870F5081CC5DA4900E8202D /* Build configuration list for PBXNativeTarget "ProfilesTool-Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B870F5091CC5DA4900E8202D /* Debug */,
+				B870F50A1CC5DA4900E8202D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B870F4FA1CC5DA4800E8202D /* Project object */;
+}
